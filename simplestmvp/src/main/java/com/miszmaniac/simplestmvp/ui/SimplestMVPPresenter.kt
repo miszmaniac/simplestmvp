@@ -5,7 +5,7 @@ import com.getresponse.rooms2.extensions.DisposableRegistrants
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 
-abstract class BasePresenter<VIEW : MvpView<*>> : MvpPresenter<VIEW>, DisposableRegistrants {
+abstract class SimplestMVPPresenter<VIEW : MvpView<*>> : MvpPresenter<VIEW>, DisposableRegistrants {
 
     override lateinit var view: VIEW
 

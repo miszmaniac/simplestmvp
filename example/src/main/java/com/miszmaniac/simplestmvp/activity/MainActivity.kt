@@ -1,11 +1,11 @@
 package com.miszmaniac.simplestmvp.activity
 
 import com.miszmaniac.simplestmvp.R
-import com.miszmaniac.simplestmvp.ui.BaseActivity
+import com.miszmaniac.simplestmvp.ui.SimplestMVPActivity
 import org.koin.android.ext.android.inject
 import org.koin.core.parameter.parametersOf
 
-class MainActivity : BaseActivity<MainContract.View, MainContract.Presenter>(), MainContract.View {
+class MainActivity : SimplestMVPActivity<MainContract.View, MainContract.Presenter>(), MainContract.View {
     override fun handleErrorAndShowToast(e: Throwable) {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }

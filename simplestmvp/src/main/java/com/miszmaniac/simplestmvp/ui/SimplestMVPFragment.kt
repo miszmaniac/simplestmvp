@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import androidx.annotation.CallSuper
 import androidx.fragment.app.Fragment
 
-abstract class BaseFragment<VIEW : MvpView<PRESENTER>, out PRESENTER : MvpPresenter<VIEW>> :
+abstract class SimplestMVPFragment<VIEW : MvpView<PRESENTER>, out PRESENTER : MvpPresenter<VIEW>> :
     Fragment(),
     MvpView<PRESENTER> {
 

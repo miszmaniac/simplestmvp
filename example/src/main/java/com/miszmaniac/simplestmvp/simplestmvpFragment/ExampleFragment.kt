@@ -1,11 +1,11 @@
 package com.miszmaniac.simplestmvp.simplestmvpFragment
 
 import com.miszmaniac.simplestmvp.R
-import com.miszmaniac.simplestmvp.ui.BaseFragment
+import com.miszmaniac.simplestmvp.ui.SimplestMVPFragment
 import org.koin.android.ext.android.inject
 import org.koin.core.parameter.parametersOf
 
-class ExampleFragment : BaseFragment<ExampleContract.View, ExampleContract.Presenter>(),
+class ExampleFragment : SimplestMVPFragment<ExampleContract.View, ExampleContract.Presenter>(),
     ExampleContract.View {
     override fun handleErrorAndShowToast(e: Throwable) {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.

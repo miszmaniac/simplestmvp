@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.annotation.CallSuper
 import androidx.appcompat.app.AppCompatActivity
 
-abstract class BaseActivity<VIEW : MvpView<PRESENTER>, out PRESENTER : MvpPresenter<VIEW>>
+abstract class SimplestMVPActivity<VIEW : MvpView<PRESENTER>, out PRESENTER : MvpPresenter<VIEW>>
     : AppCompatActivity(), MvpView<PRESENTER> {
 
     abstract val layoutId: Int
