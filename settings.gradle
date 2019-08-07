@@ -1,0 +1,2 @@
+include ':example', ':simplestmvp'
+rootProject.name='SimplestMVP'
