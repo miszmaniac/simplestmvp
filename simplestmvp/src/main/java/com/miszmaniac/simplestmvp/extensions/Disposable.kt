@@ -1,4 +1,4 @@
-package com.getresponse.rooms2.extensions
+package com.miszmaniac.simplestmvp.extensions
 
 import android.view.View
 import io.reactivex.disposables.Disposable

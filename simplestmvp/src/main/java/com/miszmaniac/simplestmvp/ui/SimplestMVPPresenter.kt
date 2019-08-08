@@ -1,7 +1,7 @@
 package com.miszmaniac.simplestmvp.ui
 
 import androidx.annotation.CallSuper
-import com.getresponse.rooms2.extensions.DisposableRegistrants
+import com.miszmaniac.simplestmvp.extensions.DisposableRegistrants
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 
